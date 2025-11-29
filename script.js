@@ -15,13 +15,7 @@ let gameContainer = document.querySelector(".game-container")
 let timeDisplay = document.querySelector(".counting-time")
 let scoreDisplay = document.querySelector(".cards-score")
 
-//let firstCard , secondCard=
-// let matchingCards = document.querySelector(".cards") we don't need another variable for cards we have all the cards inside game container
 
-//under this works uncomment
-// console.log("gameContainer", gameContainer)
-
-// const gameCards = () => {
 const memoryCard = [
   "./images/image0.jpeg",
   "./images/image0.jpeg",
@@ -105,27 +99,3 @@ rePlay.addEventListener("click", () => {
   scoreDisplay.innerText = score
 })
 
-// const playAgain = () => {
-//   rePlay.addEventListener("click", () => {
-//     reSet()
-//     score = 0
-//     scoreDisplay.innerText = score
-//   })
-//   //flip the cards back
-//   document.querySelector(".play-button").forEach((card)=>){
-//     cards.classList.remove("flip")
-//   }
-// const shuffleCards = memoryCard.sort(() => Math.random() - 0.5)
-
-// }
-// playAgain()
-
-// cards.forEach(card =>{
-// card.classList.remove("flipped" , "matched")
-// })
-// rePlay.addEventListener("click", () => {
-//   reSet()
-//   score = 0
-//   scoreDisplay.innerText = score
-//   // call function playAgain ()
-// })
