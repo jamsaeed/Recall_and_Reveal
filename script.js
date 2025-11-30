@@ -1,8 +1,5 @@
 let score = 0
 let timer = 60
-let firstCard = null
-let secondCard = null
-let gameBoard = false
 let rePlay = document.querySelector(".play-button")
 console.log(rePlay)
 
