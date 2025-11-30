@@ -1,8 +1,3 @@
-// console.log("js workin")
-// let match = null
-
-// console.log(matchingCards)
-
 let score = 0
 let timer = 60
 let firstCard = null

@@ -2,29 +2,48 @@
   background: url(./images/backgMain.jpeg);
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+@keyframes float {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-20px); }
+  100% { transform: translateY(0); }
 }
 .h1-mainpage {
   color: rgb(255, 25, 209);
-  font-size: 600pxx;
+  font-size: 100px;
+animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-20px); }
+  100% { transform: translateY(0); }
 }
 
 .h3-mainpage {
   color: rgb(170, 80, 152);
   font-size: 55px;
+  animation: float 3s ease-in-out infinite;
 }
+
+
 .shifting {
-  background-color: rgb(255, 214, 227);
+  background-color: rgb(255, 235, 245);
   border: solid rgb(255, 214, 227);
   padding: 1rem 1.5rem;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 1.25rem;
   animation: 2s linear infinite blink;
+
 }
 
 body {
   background: url(./images/backgMain.jpeg);
-  background-color: rgb(200, 255, 198);
+  background-color: rgb(252, 220, 255);
   color: rgb(62, 112, 158);
   margin: 0;
   background-position: center;
@@ -39,28 +58,40 @@ body {
   font-style: normal;
 }
 
+
 h1 {
   font-size: 90px;
   color: rgb(133, 11, 135);
+
+
 }
+
 h3 {
   font-size: 50px;
   color: rgb(62, 112, 158);
 }
 
+
+@keyframes float {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-20px); }
+  100% { transform: translateY(0); }
+}
 .text {
   margin: 20px 0;
   font-size: 24px;
   font-weight: bold;
   text-align: center;
+  animation: float 3s ease-in-out infinite;
 }
+
 .game-container {
   background-color: rgb(255, 192, 216);
   width: 1300px;
   height: 500px;
   margin-top: 20px;
   display: grid;
-  flex-wrap: wrap;
+  flex-wrap: wrap;/* remove */
   justify-content: center;
   align-items: center;
   border: 10px solid rgb(255, 192, 216);
@@ -87,10 +118,19 @@ img {
   width: 200px;
 }
 
-.button {
-  padding: 1rem 1.5rem;
+.play-button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
   text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 1.25rem;
-  animation: 2s linear infinite blink;
+  background: rgb(200, 255, 198);
+  color: #000000;
+  border: 2px solid rgb(200, 255, 198);;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.15s ease;
+}
+
+.play-button:hover {
+  background: rgb(108, 193, 169);
+  border-color: rgb(108, 193, 169);
 }
