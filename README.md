@@ -35,7 +35,7 @@
 ![game-final-result](./images/game%20final%20result.jpeg)
 
 ### Game's final look + deployed 
-[memorycardgame]([http://127.0.0.1:5500/game.html](https://flowerthemedmemorycardgame.surge.sh/))
+[memorycardgame](https://flowerthemedmemorycardgame.surge.sh/))
 
 ### ***Task List***
 - [x] 2 htmls
