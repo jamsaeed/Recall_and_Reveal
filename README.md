@@ -4,8 +4,10 @@
 ***
 ## Date : finished at 9/17/2025
 ### By: Jameela Mohammed Saeed
-#### [Github](https://github.com/jamsaeed) [linkden](https://www.linkedin.com/in/jameela-mohammed-94b462381?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)
+[linkedIn](https://www.linkedin.com/in/jameela-mohammed-94b462381?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)
 ***
+>This repository contains my first JavaScript game project. I've intentionally kept most of the original README as a snapshot of my learning journey.
+
 
 ### description
 ### *Making my first ever game with html,css, and js  after 2 weeks of learning basic coding. Making A flower themed Memorycard game. the game is about matching two cards with matching flower it is a classic game played by laying a set of cards face down and taking turns to flip over two cards at a time to find a matching pair. If the cards match, the player keeps the pair and takes another turn; if they don't match, they are turned back face down*
@@ -30,12 +32,17 @@
 * **stackover flow**
 * **medium**
 
-### what should the game look like
+### what the should game look like:
  ### **image header 1**
 ![game-final-result](./images/game%20final%20result.jpeg)
 
 ### Game's final look + deployed 
-[memorycardgame](https://flowerthemedmemorycardgame.surge.sh/))
+Version 1 :
+[memorycardgame](https://flowerthemedmemorycardgame.surge.sh/)
+
+version 2 : 
+[Recal and Reveal](https://jamsaeed.github.io/Recall_and_Reveal/)
+
 
 ### ***Task List***
 - [x] 2 htmls
